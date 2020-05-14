@@ -33,7 +33,6 @@ class Song
       end
       g_count
       binding.pry
-
   end
 
   def artists_count
