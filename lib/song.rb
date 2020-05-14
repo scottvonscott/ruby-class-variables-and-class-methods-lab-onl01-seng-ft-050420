@@ -33,7 +33,7 @@ class Song
       if g_count.include? (genre)
         g_count[genre] += 1
       else
-        g_count << genre
+        g_count = genre
         g_count[genre] = 1
       end
     end
@@ -46,7 +46,7 @@ class Song
       if a_count.include? (artist)
          a_count[artist] += 1
       else
-         a_count << artist
+         a_count = artist
          a_count[artist] = 1
       end
     end
