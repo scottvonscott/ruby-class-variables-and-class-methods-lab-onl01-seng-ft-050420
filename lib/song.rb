@@ -31,7 +31,8 @@ class Song
         g_count << genre
         g_count[genre] = 1
       end
-      g_count
+    end
+   g_count
   end
 
   def artists_count
@@ -42,15 +43,9 @@ class Song
       else
          a_count << artist
          a_count[artist] = 1
-       end
-       a_count
+      end
+    end
+    a_count
   end
 
-
   end
-
-
-
-
-
-end
