@@ -37,6 +37,15 @@ class Song
   end
 
   def artists_count
+    a_count = {}
+    @@artists.collect do |artist|
+      if a_count.include? (artist)
+         a_count[artist] += 1
+      else
+         a_count << artist
+         a_count[artist] = 1
+       end
+       a_count
   end
 
 
