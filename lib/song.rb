@@ -20,10 +20,10 @@ class Song
     @@genres.uniq
   end
 
-  def artists
+  def self.artists
     @@artists.uniq
 
-  def genre_count
+  def self.genre_count
     g_count = {}
     @@genre.collect do |genre|
       if g_count.include? (genre)
@@ -36,7 +36,7 @@ class Song
    g_count
   end
 
-  def artists_count
+  def self.artists_count
     a_count = {}
     @@artists.collect do |artist|
       if a_count.include? (artist)
