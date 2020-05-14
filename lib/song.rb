@@ -22,11 +22,14 @@ class Song
   def artists
     @@artists.uniq
 
+  def genre_count
+      
+  end
+
   def artists_count
   end
 
-  def genre_count
-  end
+
   end
 
 
