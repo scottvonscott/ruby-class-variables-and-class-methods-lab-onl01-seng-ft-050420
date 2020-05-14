@@ -32,6 +32,7 @@ class Song
         g_count[genre] = 1
       end
       g_count
+      binding.pry
 
   end
 
