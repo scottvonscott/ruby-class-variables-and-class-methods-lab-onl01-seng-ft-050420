@@ -29,6 +29,9 @@ class Song
         g_count[genre] += 1
       else
         g_count << genre
+        g_count[genre] = 1
+      end
+      g_count
 
   end
 
