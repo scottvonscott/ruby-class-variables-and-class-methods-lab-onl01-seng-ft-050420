@@ -36,7 +36,7 @@ class Song
    g_count
   end
 
-  def self.artists_count
+  def self.artist_count
     a_count = {}
     @@artists.collect do |artist|
       if a_count.include? (artist)
